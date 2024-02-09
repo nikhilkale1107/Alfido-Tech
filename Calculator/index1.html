@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CalcMaster</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="index1.css">
+</head>
+<body>
+    <h1>CalcMaster</h1>
+    <nav>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="index.html">CALCULATOR</a></li>
+                <li><a href="#" class="active">EMI CALCULATOR</a></li>
+                <li><a href="index2.html">FD CALCULATOR</a></li>
+            </ul>
+        </div>
+    </nav>
+        <p id="message">Want to Calculate the EMI ?</p>
+        <div>
+            Loan Amount : <input class="input" type="text" id="term1" placeholder="Enter Loan Amount in Rs"><br>
+            Loan Term : &nbsp; &nbsp; <input class="input" type="text" id="term2" placeholder="Enter Loan Terms in Years"><br>
+            Interest Rate : <input class="input" type="text" id="term3" placeholder="Enter Interest Rate in %">
+        </div>
+
+        <div class="operation">
+            <button onclick="save()">SAVE</button><br>
+            <button onclick="monthly_emi()">MONTHLY EMI &nbsp;&nbsp;&nbsp;</button>
+            <button onclick="loan_amount()">LOAN AMOUNT</button>
+            <button onclick="interest_payable()">INTEREST </button>
+            <button onclick="total_payable()">TOTAL PAYABLE</button>
+        </div> 
+
+        <div class="result">
+            <span id="result">Result</span>
+        </div>
+
+
+
+        <script src="index1.js"></script>
+</body>
+</html>

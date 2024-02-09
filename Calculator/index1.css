@@ -1,0 +1,79 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url("table.png");
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    user-select: none;
+   
+}
+
+h1 {
+    color: goldenrod;
+    font-size: 40px;
+}
+.mid{
+    display: block;
+    font-size: 18px;
+    width: 100%;
+    border-radius: 25px;
+    margin-bottom: 30px;  
+}
+
+.navbar li {
+    display: inline-block;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-bottom: 10px;
+
+
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    color: goldenrod;
+}
+
+#message{
+    font-style: italic;
+}
+.input{
+    font-size: 15px;
+    display: inline-block;
+    margin-top:20px;
+    padding-top: 5px;
+    /* padding-bottom: 5px; */
+    text-align: center;
+   
+}
+button{
+    font-size: 15px;
+    color: white;
+    /* color: #016f32; */
+    background-color: goldenrod;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    width: 150px;
+    border-radius: 2px;
+    margin-top: 20px;
+}
+button:hover{
+    color:#016f32;
+}
+.result{
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 20px;
+    border: 2px solid white;
+    width: auto;
+    padding : 10px 25px;
+    /* padding-right: 20px;  */
+}

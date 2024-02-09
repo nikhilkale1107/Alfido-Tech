@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CalcMaster</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="index2.css">
+</head>
+<body>
+    <h1>CalcMaster</h1>
+    <nav>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="index.html" >CALCULATOR</a></li>
+                <li><a href="index1.html">EMI CALCULATOR</a></li>
+                <li><a href="#" class="active">FD CALCULATOR</a></li>
+            </ul>
+        </div>
+    </nav>
+        <p id="message">Want to Calculate the Investment ?</p>
+        <div>
+            Total Investment : <input class="input" type="text" id="term1" placeholder="Enter Total Investment in Rs"><br>
+            Time Period : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input class="input" type="text" id="term2" placeholder="Enter Time Period in Years"><br>
+            Rate of Interest : &nbsp;<input class="input" type="text" id="term3" placeholder="Enter Rate of Interest in %">
+        </div>
+
+        <div class="operation">
+            <button onclick="save()">SAVE</button><br>
+            <button onclick="invested_amount()">INVESTED</button>
+            <button onclick="estimated_return()">ESTIMATED</button>
+            <button onclick="total_value()">TOTAL VALUE &nbsp;&nbsp;</button>
+        </div>
+
+        <div class="result">
+            <span id="result">Result</span>
+        </div> 
+
+
+
+        <script src="index2.js"></script>
+</body>
+</html>
