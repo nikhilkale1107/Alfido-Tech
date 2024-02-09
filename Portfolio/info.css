@@ -1,0 +1,17 @@
+.Stack{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.stack__image{
+    font-size: 5rem;
+    width: 30px;
+    color: var(--title-color);
+}
+.discription{
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+}
