@@ -1,0 +1,115 @@
+
+
+body {
+
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url(Fitness_Backgroumd.jpg);
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+    .left {
+        position: absolute;
+        left: 35px;
+        top: 15px;
+        display: inline-block;
+        /* border: 2px solid red; */
+
+    }
+
+    .left img {
+        width: 75 px;
+        height: 75px;
+    }
+
+    .left div {
+        text-align: center;
+        /* To center a Nikhil Fitness text */
+    }
+
+    .mid {
+        position: relative;
+        display: block;
+        width: 50%;
+        margin: 25px auto;
+        /* border: 2px solid green; */
+
+    }
+
+    .right {
+
+        position: absolute;
+        right: 23px;
+        top: 20px;
+        display: inline-block;
+        margin: 10px;
+        /* border: 2px solid yellow; */
+
+    }
+
+    .right .btn {
+        font-size: 15px;
+    }
+
+
+    .navbar li {
+        display: inline-block;
+        font-size: 20px;
+
+
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        /* To remove the under line from navbar ,which was due to anchor tag */
+        padding: 34px 15px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: black;
+    }
+
+    .btn {
+        background-color: rgb(16, 17, 18);
+        color: white;
+        margin: 5px auto;
+        padding: 4px 10px;
+        font-size: 20px;
+        border-radius: 10px;
+
+    }
+
+    .container {
+        text-align: Left;
+        /* border: 2px solid gold; */
+        font-size: 13px;
+        margin: 50px 50px;
+        padding: 20px 20px;
+        width: 33%;
+        border-radius: 2px;
+    }
+
+    .form-group input , label , select,option {
+        text-align: center;
+        /* display: block; */
+        font-size: 16px;
+        margin: 8px auto;
+        padding: 4px 3px;
+        width: 283px;
+        border-radius: 8px;
+        color: black;
+    }
+
+    .container button {
+        text-align: center;
+        font-size: 15px;
+        margin: auto;
+        padding: 4px 3px;
+        width: 393px;
+        border-radius: 8px;
+    }

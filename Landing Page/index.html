@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikhil Fitness</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+    <header class="header">
+
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="Fitness_Logo.jpeg" alt="">
+            <div>Nikhil Fitness</div>
+        </div>
+
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+        <div class="container">
+            <h1>Join the best Gym of Pune now</h1>
+            <form action="noaction.php">
+                <div class="form-group">
+                    <label> First name : </label>
+                    <input type="text" placeholder="Enter your First Name">
+                </div>
+                <div class="form-group">
+                    <label> Last name : </label>
+                    <input type="text" placeholder="Enter your Last Name">
+                    
+                </div>
+                <div class="form-group">
+                    <label> Age : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <input type="number" min="18" max="60" name="" placeholder="Enter your Age">
+                </div>
+                <div class="form-group">
+                    <label> Gender : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <select>
+                        <option value="">-Select Gender-</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">  
+                    <label> Address : &nbsp;&nbsp;</label>
+                    <input type="text" name="" placeholder="Enter your Locality"><br>
+                </div>
+                <div class="form-group">
+                    <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <input type="submit" value="Submit"><br>
+                    <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <input type="reset" value="Reset">
+                </div>    
+            </form>
+        </div>
+    </header>
+</body>
+
+</html>
